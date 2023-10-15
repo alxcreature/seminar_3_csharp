@@ -47,3 +47,8 @@ public class Answer
         System.Console.WriteLine($"{result}");
     }
 }
+// 12345
+// 12345 / 10000     -> 1
+// 12345 / 1000 % 10 -> 2
+// 12345 % 100 / 10  -> 4
+// 12345 % 10        -> 5
